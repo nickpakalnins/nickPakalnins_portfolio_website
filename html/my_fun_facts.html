@@ -5,43 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N.Pakalnins Portfolio</title>
     <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+    <link rel="stylesheet" href="../css/styles.css"/>
 </head>
 <body>
     <header>
-    <h1>Some Fun Facts About Me</h1>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="./my_resume.html">Resume</a>
-        <a href="./my_fun_facts.html">My Fun Facts</a>
-       </nav>
+    <nav class="navbar">
+        <img src="../assets/img/N.jpg" alt="Logo of an N" class="N" />
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="/html/my_resume.html">Resume</a></li>
+          <li><a href="/html/my_fun_facts.html">My Fun Facts</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <br />
-    <br />
+    <div class="title"><h1>Some Fun Facts <span>About Me</span></h1></div>
+    
+    <div class="my-favorites">
 
-    <section>
-        <h2>My current Favorite Book:</h2>
-        <h3>Can't Hurt Me by David Goggins</h3>
-        <img src="../assets/img/chmdg.jpg" height="300px" width="200px">
-        <br />
+    <div class="book">
+        <h2 class="title-fav">My current Favorite Book:</h2>
+        <h3 class="source-fav">Can't Hurt Me by David Goggins</h3>
+        <img src="../assets/img/chmdg.jpg">
+    </br>
         <a href="https://www.amazon.com/Cant-Hurt-Me-Master-Your-ebook/dp/B07H453KGH/?geniuslink=true">Link to purchase "Can't Hurt Me"</a>
         <p>What I most like about the book is the message it conveys. No matter how many or what kinds of struggles you have going on in your life, anything is possible to get through as long as you have a bulletproof mindset.</p>
-    </section>
-    <br />
-    <br />
-    <section>
-        <h2>My current Favorite Song:</h2>
-        <h3>Punk Tactics by Joey Valence and Brae</h3>
+    </div>
+    
+    <div class="song">
+        <h2 class="title-fav">My current Favorite Song:</h2>
+        <h3 class="source-fav">Punk Tactics by Joey Valence and Brae</h3>
         <audio src="../assets/audio/PUNK TACTICS.mp3" controls></audio>
         <br />
         <a href="https://open.spotify.com/track/3UrmGzOn0AaQLvXW7iFn9X">Link to Punk Tactics on Spotify</a>
-    </section>
-    <br />
-    <br />
-    <section>
-        <h2>My current Favorite TV Series</h2>
-        <h3>The Traitors Season 2</h3>
+    </div>
+    
+    <div class="show">
+        <h2 class="title-fav">My current Favorite TV Series</h2>
+        <h3 class="source-fav">The Traitors Season 2</h3>
         <iframe src="https://www.youtube.com/embed/iwCCPWdNC9U" width="560" height="315" title="The Traitors Season 2" frameborder="0" allowfullscreen></iframe>
-    </section>
+    </div>
+
+</div>
+
 </body>
 </html>

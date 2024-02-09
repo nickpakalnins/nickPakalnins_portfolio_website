@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap");
+
+/* Primary BG Color: #2D3047 */
+/* Secondary BG Color: #DF2935 */
+/* Primary Font Color: #00F6ED */
+/* Secondary Font Color: #FFFFFF */
+/* Backup Color: #FFA9E7 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Courier New", Courier, monospace;
+  --bg-primary: #2d3047;
+  --bg-secondary: #df2935;
+  --font-color-primary: #ffffff;
+  --font-color-secondary: #00f6ed;
+  --backup-color: #ffa9e7;
+}
+
+body {
+  height: 100vh;
+  background: var(--bg-primary);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 50px;
+}
+
+.navbar img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  margin-top: 50px;
+}
+
+.navbar ul {
+  display: flex;
+  margin-top: 50px;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--font-color-primary);
+  font-size: 20px;
+  margin-right: 25px;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: var(--font-color-secondary);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  font-size: 30px;
+}
+
+.title h1 {
+  color: var(--font-color-primary);
+}
+
+.title h1 span {
+  color: var(--bg-secondary);
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 0 50px;
+}
+
+.about-me img{
+    margin: 50px;
+    border-radius: 50px;
+}
+
+.about-me .info{
+    color: var(--font-color-primary);
+    font-size: 25px;
+    font-weight: 200;
+    padding: 100px;
+}
+
+.about-me .info .hire-btn{
+    background: var(--bg-secondary);
+    color: var(--font-color-primary);
+    padding: 20px;
+    margin-top: 50px;
+    border: none;
+    font-size: 18px;
+    width: 200px;
+    border-radius: 50px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.about-me .info .hire-btn:hover{
+    background: var(--font-color-secondary);
+    color: var(--bg-primary);
+}
+
+.quote .my-quote{
+    color: var(--font-color-primary);
+    font-size: 20px;
+    padding: 0 50px;
+}
+
+.quote .my-quote span{
+    color: var(--bg-secondary)
+}
+
+.future{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0 50px;
+}
+
+.future p{
+    color: var(--font-color-primary);
+    font-weight: 100;
+    padding-left: 13px;
+    font-size: 17px;
+}
+
+.future label{
+    color: var(--font-color-primary);
+    padding-left: 25px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.future label span{
+    color: var(--font-color-secondary);
+}
+
+.future progress{
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 80px;
+}
+
+footer small{
+    font-size: 17px;
+    color: var(--font-color-secondary);
+}
+
+.my-favorites{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.my-favorites .title-fav{
+    color: var(--font-color-primary);
+    margin-bottom: 10px;
+}
+
+.my-favorites .source-fav{
+    color: var(--bg-secondary);
+    margin-bottom: 10px;
+}
+
+.my-favorites .book{
+    margin: 50px;
+    padding: 50px;
+}
+
+.my-favorites .book img{
+    width: 400px;
+    height: 600px;
+    margin-bottom: 10px;
+}
+
+.my-favorites .book a{
+    color: var(--font-color-secondary);
+    transition: background 0.3s ease;
+}
+
+.my-favorites .book a:hover{
+    color: var(--font-color-primary)
+}
+
+.my-favorites .book p{
+    margin-top: 10px;
+    color: var(--font-color-primary);
+}
+
+.my-favorites .song{
+    margin: 50px;
+    padding: 50px;
+}
+
+.my-favorites .song{
+    margin-top: 50px;
+}
+
+.my-favorites .song a{
+    color: var(--font-color-secondary);
+    transition: background 0.3s ease;
+}
+
+.my-favorites .song a:hover{
+    color: var(--font-color-primary)
+}
+
+.my-favorites .song audio{
+    margin-bottom: 10px;
+}
+
+.my-favorites .show{
+    margin: 50px;
+    padding: 50px;
+}
+
+.resume-info{
+   padding: 50px 300px 0px 300px;
+   color: var(--font-color-primary);
+}
+
+.resume-info span{
+    color: var(--bg-secondary);
+}
